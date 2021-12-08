@@ -1,0 +1,147 @@
+*{
+     margin: 0;
+     box-sizing: border-box;
+}
+.btn{
+     background-color:#B09067 ;
+     padding: 10px;
+     border:none;
+     color: #ffffff;
+}
+/* ================= Home page ================= */
+/* ================= Header starts ================= */
+header{
+     background-image: url(../img/bg.jpg);
+}
+.ribbon{
+     position: absolute;
+     top: 0 ;
+     right: 0;
+     width: 100px;
+}
+.ribbon img{
+     width: 100%;
+}
+.livr{
+     background-color: #879E0F;
+     height: 30px;
+     text-align: center;
+     color: #ffffff;
+     padding-top: 5px;
+}
+.container{
+     max-width: 1100px;
+     /* min-width: 800px; */
+     margin: 0 auto;
+}
+.logocont{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     color: #ffffff;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+.navbar{
+     display: flex;
+     justify-content: space-around;
+     padding-bottom: 30px;
+}
+.navbar a{
+     color: #ffffff;
+     text-decoration: none;
+}
+/* ================= Main starts ================= */
+main{
+     background-color: #F2F2F2;
+}
+.heading{
+     padding-top: 30px;
+     padding-bottom: 30px;
+}
+.heading h1{
+     font-size: 4em;
+     text-align: center;
+     color: #A8BA36;
+}
+.heading img{
+     width: 100%;
+     margin-bottom: 10px;
+     margin-top: 20px;
+}
+.heading p{
+     text-align: center;
+}
+.slider img{
+     width: 100%;
+     margin-bottom: 10px;
+     margin-top: 20px;
+}
+.thecategorie{
+     background-color: #ffffff;
+     padding: 20px;
+     margin-top: 20px;
+}
+.thecategorie h2{
+     color: #A8BA36;
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+}
+.thecategorie  h2:before, .thecategorie h2:after {
+    content: "";
+    border-top:  1px solid #eee;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+.thecategorie h2:after {
+   margin: 0 5px 0 20px;
+}
+.container-categorie{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     text-align: center;
+}
+.container-categorie .box-container img{
+     width: 100%;
+}
+/*------------------------------------- Product --------------------------- */
+.product{
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     column-gap: 20px;
+}
+.product .box-product{
+     flex-basis: 33.33%;
+}
+.product .box-product h3{
+     color:#A8BA36;
+}
+/* ================= Foooter ================= */
+.footer1{
+     
+}
+.look img{
+     width: 10px;
+     height: 10px;
+}
+
+/*---------------------------------------------------------------------------------------------
+                                    For mobile
+---------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+     /* ================= Home page ================= */
+/* ================= Header starts ================= */
+.ribbon{
+     display: none;
+}
+.heading{
+     display: none;   
+}
+.slider{
+     display: none;
+}
+}
